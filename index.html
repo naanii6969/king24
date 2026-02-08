@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="es-ES" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENCIA KING 24 | Gestión Premium para Creadores</title>
+    <meta name="description"
+        content="Agencia de gestión premium para creadores de contenido en OnlyFans. Maximizamos tus ingresos y protegemos tu privacidad.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-black': '#0a0a0a',
+                        'brand-blue': '#00aff0',
+                        'brand-blue-hover': '#008ccf',
+                        'brand-gray': '#1a1a1a',
+                    },
+                    fontFamily: {
+                        sans: ['Montserrat', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .blue-gradient-text {
+            background: linear-gradient(to right, #00aff0, #69dbff, #00aff0);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-size: 200% auto;
+            animation: shine 3s linear infinite;
+        }
+
+        @keyframes shine {
+            to {
+                background-position: 200% center;
+            }
+        }
+
+        .hero-overlay {
+            background: linear-gradient(to bottom, rgba(10, 10, 10, 0.3) 0%, rgba(10, 10, 10, 0.7) 60%, #0a0a0a 100%);
+        }
+    </style>
+</head>
+
+<body class="bg-brand-black text-white font-sans antialiased overflow-x-hidden">
+
+    <!-- Navbar -->
+    <nav
+        class="fixed w-full z-50 transition-all duration-300 bg-brand-black/90 backdrop-blur-sm border-b border-white/5 py-4">
+        <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+            <div class="text-xl md:text-2xl font-bold tracking-widest text-white">
+                AGENCIA <span class="text-brand-blue">KING 24</span>
+            </div>
+            <a href="#contact"
+                class="hidden md:inline-block bg-brand-blue text-white font-semibold px-6 py-2 rounded-sm hover:bg-brand-blue-hover transition-colors duration-300 uppercase tracking-wide text-sm shadow-lg shadow-brand-blue/20">
+                Unirse Ahora
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+        <!-- Background Image -->
+        <div class="absolute inset-0 z-0">
+            <img src="img/top.jpg" alt="Luxury Model Background" class="w-full h-full object-cover opacity-60">
+        </div>
+        <!-- Overlay -->
+        <div class="absolute inset-0 z-10 hero-overlay"></div>
+
+        <!-- Content -->
+        <div class="relative z-20 text-center max-w-4xl px-6 fade-in-up">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                Tu Éxito, <span class="blue-gradient-text">Nuestra Estrategia</span>.<br>
+                La Agencia Premium para Creadores.
+            </h1>
+            <p class="text-gray-300 text-lg md:text-xl mb-10 font-light max-w-2xl mx-auto">
+                Maximizamos tus ingresos, gestionamos tus redes y protegemos tu privacidad en OnlyFans. Dedícate a
+                crear, nosotros hacemos el resto.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#contact"
+                    class="bg-brand-blue text-white font-bold px-8 py-4 rounded-sm hover:bg-brand-blue-hover transition-all duration-300 transform hover:scale-105 uppercase tracking-wider text-base shadow-[0_0_20px_rgba(0,175,240,0.4)]">
+                    Unirse Ahora
+                </a>
+                <a href="#why-us"
+                    class="border border-white/30 text-white font-semibold px-8 py-4 rounded-sm hover:bg-white/10 transition-colors duration-300 uppercase tracking-wider text-base backdrop-blur-sm">
+                    Saber Más
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Opportunity Section -->
+    <section class="py-24 px-6 bg-brand-black relative border-b border-white/5">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-brand-blue/5 skew-x-12 pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+            <div>
+                <h2 class="text-3xl md:text-5xl font-bold mb-6">¿Qué es <span class="text-brand-blue">OnlyFans</span> y
+                    por qué ahora?</h2>
+                <div class="w-20 h-1 bg-brand-blue mb-8"></div>
+                <p class="text-gray-300 text-lg leading-relaxed mb-6">
+                    OnlyFans ha revolucionado la forma en que los creadores monetizan su influencia. No es solo una
+                    plataforma, es un <strong>ecosistema de suscripción premium</strong> donde tus seguidores más leales
+                    pagan por acceso exclusivo a ti.
+                </p>
+                <p class="text-gray-300 text-lg leading-relaxed mb-8">
+                    Para 2026, se estima que la economía de los creadores se duplicará. Es el momento perfecto para
+                    convertir tu imagen en un activo digital de alto rendimiento, sin sacrificar tu tiempo libre.
+                </p>
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3">
+                        <span class="p-1 rounded-full bg-brand-blue/20 text-brand-blue"><svg class="w-5 h-5" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg></span>
+                        <span class="text-white font-medium">Libertad Financiera Absoluta</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="p-1 rounded-full bg-brand-blue/20 text-brand-blue"><svg class="w-5 h-5" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg></span>
+                        <span class="text-white font-medium">Control Total de tu Imagen</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <span class="p-1 rounded-full bg-brand-blue/20 text-brand-blue"><svg class="w-5 h-5" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 13l4 4L19 7"></path>
+                            </svg></span>
+                        <span class="text-white font-medium">Ingresos Recurrentes Reales</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="relative">
+                <div
+                    class="absolute -inset-4 bg-gradient-to-r from-brand-blue to-purple-600 rounded-sm opacity-30 blur-lg">
+                </div>
+                <img src="img/main.jpg" alt="Lifestyle Growth"
+                    class="relative rounded-sm w-full h-auto shadow-2xl grayscale hover:grayscale-0 transition-all duration-500">
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="py-24 px-6 bg-brand-black relative">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">¿Por qué elegir <span class="text-brand-blue">nuestra
+                        agencia</span>?</h2>
+                <div class="w-24 h-1 bg-brand-blue mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Col 1 -->
+                <div
+                    class="bg-brand-gray p-8 rounded-sm border border-white/5 hover:border-brand-blue/30 transition-all duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-brand-black rounded-full flex items-center justify-center mb-6 text-brand-blue group-hover:scale-110 transition-transform duration-300 border border-brand-blue/20">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 9.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-13.5A2.25 2.25 0 0 1 3 20.25V9.75M21 9.75c0-1.242-1.006-2.249-2.25-2.249h-13.5C4.006 7.501 3 8.508 3 9.75m18 0v10.5M21 9.75 14.657 5.068A2.25 2.25 0 0 0 12.016 5.088L3 11.25" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 15.75h.007v.008H12v-.008Z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Gestión Integral 24/7</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Nos encargamos del chat, la programación de contenido y la interacción con fans para maximizar
+                        tus ganancias diarias.
+                    </p>
+                </div>
+
+                <!-- Col 2 -->
+                <div
+                    class="bg-brand-gray p-8 rounded-sm border border-white/5 hover:border-brand-blue/30 transition-all duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-brand-black rounded-full flex items-center justify-center mb-6 text-brand-blue group-hover:scale-110 transition-transform duration-300 border border-brand-blue/20">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Crecimiento y Marketing Viral</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Utilizamos estrategias probadas en redes sociales (TikTok, IG, Reddit) para atraer tráfico de
+                        calidad a tu perfil.
+                    </p>
+                </div>
+
+                <!-- Col 3 -->
+                <div
+                    class="bg-brand-gray p-8 rounded-sm border border-white/5 hover:border-brand-blue/30 transition-all duration-300 group">
+                    <div
+                        class="w-16 h-16 bg-brand-black rounded-full flex items-center justify-center mb-6 text-brand-blue group-hover:scale-110 transition-transform duration-300 border border-brand-blue/20">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-8 h-8">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M16.5 10.5V6.75a4.5 4.5 0 1 0-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 0 0 2.25-2.25v-6.75a2.25 2.25 0 0 0-2.25-2.25H6.75a2.25 2.25 0 0 0-2.25 2.25v6.75a2.25 2.25 0 0 0 2.25 2.25Z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Privacidad y Anonimato</h3>
+                    <p class="text-gray-400 leading-relaxed">
+                        Tu seguridad es primordial. Gestionamos tu carrera con total discreción y protegemos tus datos
+                        personales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24 px-6 bg-brand-gray relative overflow-hidden">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Nuestro <span class="text-brand-blue">Proceso</span> de
+                    Éxito</h2>
+                <div class="w-24 h-1 bg-brand-blue mx-auto mb-6"></div>
+                <p class="text-gray-400 max-w-2xl mx-auto">No dejamos nada al azar. Cada paso está diseñado para escalar
+                    tu perfil de 0 a Top 1%.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div
+                    class="relative p-6 bg-brand-black border border-white/5 rounded-sm hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-6xl font-bold text-white/5 absolute top-2 right-4">01</div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3 relative z-10">Auditoría</h3>
+                    <p class="text-gray-400 text-sm relative z-10">Analizamos tu perfil actual, tu audiencia y tu
+                        potencial. Definimos tu nicho y tu "personaje" para destacar.</p>
+                </div>
+                <!-- Step 2 -->
+                <div
+                    class="relative p-6 bg-brand-black border border-white/5 rounded-sm hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-6xl font-bold text-white/5 absolute top-2 right-4">02</div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3 relative z-10">Estrategia</h3>
+                    <p class="text-gray-400 text-sm relative z-10">Diseñamos el plan de contenidos, fijamos precios y
+                        preparamos las redes sociales (funnel) para el lanzamiento.</p>
+                </div>
+                <!-- Step 3 -->
+                <div
+                    class="relative p-6 bg-brand-black border border-white/5 rounded-sm hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-6xl font-bold text-white/5 absolute top-2 right-4">03</div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3 relative z-10">Tráfico Viral</h3>
+                    <p class="text-gray-400 text-sm relative z-10">Activamos nuestra red de promoción. TikTok, Instagram
+                        y Reddit empiezan a dirigir fans masivamente a tu perfil.</p>
+                </div>
+                <!-- Step 4 -->
+                <div
+                    class="relative p-6 bg-brand-black border border-white/5 rounded-sm hover:-translate-y-2 transition-transform duration-300">
+                    <div class="text-6xl font-bold text-white/5 absolute top-2 right-4">04</div>
+                    <h3 class="text-xl font-bold text-brand-blue mb-3 relative z-10">Monetización</h3>
+                    <p class="text-gray-400 text-sm relative z-10">Nuestro equipo de chatters vende contenido exclusivo
+                        por DM 24/7. Tú viajas, nosotros vendemos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talent Gallery -->
+    <section class="py-24 px-6 bg-brand-black">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Talento <span
+                        class="text-brand-blue">Representado</span></h2>
+                <div class="w-24 h-1 bg-brand-blue mx-auto"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- David Garcia -->
+                <div
+                    class="group relative bg-brand-gray rounded-sm overflow-hidden border border-white/5 hover:border-brand-blue/30 transition-all duration-300">
+                    <a href="https://www.instagram.com/_24david24/" target="_blank"
+                        class="block aspect-[3/4] overflow-hidden relative">
+                        <img src="img/24david24.jpg"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                            alt="David García">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent opacity-60">
+                        </div>
+                    </a>
+                    <div class="p-6 relative">
+                        <h3 class="text-2xl font-bold text-white mb-1 group-hover:text-brand-blue transition-colors">
+                            David García</h3>
+                        <div class="w-12 h-1 bg-brand-blue mb-4"></div>
+
+                        <div class="space-y-3">
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/_24david24/" target="_blank"
+                                class="flex items-center justify-between text-gray-400 hover:text-white transition-colors group/link">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="p-2 rounded-full bg-white/5 group-hover/link:bg-brand-blue/20 group-hover/link:text-brand-blue transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                        </svg>
+                                    </span>
+                                    <span class="font-medium text-sm">@_24david24</span>
+                                </div>
+                                <span class="font-bold text-white text-sm">100K</span>
+                            </a>
+
+                            <!-- TikTok -->
+                            <a href="https://www.tiktok.com/@24david24_" target="_blank"
+                                class="flex items-center justify-between text-gray-400 hover:text-white transition-colors group/link">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="p-2 rounded-full bg-white/5 group-hover/link:bg-brand-blue/20 group-hover/link:text-brand-blue transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                                        </svg>
+                                    </span>
+                                    <span class="font-medium text-sm">@24david24_</span>
+                                </div>
+                                <span class="font-bold text-white text-sm">670K</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Joel Strong -->
+                <div
+                    class="group relative bg-brand-gray rounded-sm overflow-hidden border border-white/5 hover:border-brand-blue/30 transition-all duration-300">
+                    <a href="https://www.instagram.com/joel.strong.sw/" target="_blank"
+                        class="block aspect-[3/4] overflow-hidden relative">
+                        <img src="img/joelstrong.jpg"
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                            alt="Joel Strong">
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-brand-black via-transparent to-transparent opacity-60">
+                        </div>
+                    </a>
+                    <div class="p-6 relative">
+                        <h3 class="text-2xl font-bold text-white mb-1 group-hover:text-brand-blue transition-colors">
+                            Joel Strong</h3>
+                        <div class="w-12 h-1 bg-brand-blue mb-4"></div>
+
+                        <div class="space-y-3">
+                            <!-- Instagram -->
+                            <a href="https://www.instagram.com/joel.strong.sw/" target="_blank"
+                                class="flex items-center justify-between text-gray-400 hover:text-white transition-colors group/link">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="p-2 rounded-full bg-white/5 group-hover/link:bg-brand-blue/20 group-hover/link:text-brand-blue transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                        </svg>
+                                    </span>
+                                    <span class="font-medium text-sm">@joel.strong.sw</span>
+                                </div>
+                                <span class="font-bold text-white text-sm">253K</span>
+                            </a>
+
+                            <!-- TikTok -->
+                            <a href="https://www.tiktok.com/@joel.strong.sw?lang=es" target="_blank"
+                                class="flex items-center justify-between text-gray-400 hover:text-white transition-colors group/link">
+                                <div class="flex items-center gap-3">
+                                    <span
+                                        class="p-2 rounded-full bg-white/5 group-hover/link:bg-brand-blue/20 group-hover/link:text-brand-blue transition-colors">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
+                                        </svg>
+                                    </span>
+                                    <span class="font-medium text-sm">@joel.strong.sw</span>
+                                </div>
+                                <span class="font-bold text-white text-sm">770K</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 px-6 bg-brand-black border-t border-white/5">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Preguntas <span
+                        class="text-brand-blue">Frecuentes</span></h2>
+                <p class="text-gray-400">Resolvemos tus dudas antes de empezar.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- item 1 -->
+                <details class="group bg-brand-gray rounded-sm border border-white/5 overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg hover:text-brand-blue transition-colors text-white">
+                        ¿Necesito experiencia previa o seguidores?
+                        <span class="transition-transform group-open:rotate-180">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-400 leading-relaxed">
+                        No es estrictamente necesario. Si bien tener seguidores ayuda a arrancar más rápido, somos
+                        expertos en crear marcas personales desde cero (Zero to Hero). Te enseñamos cómo crear contenido
+                        que atraiga fans.
+                    </div>
+                </details>
+                <!-- item 2 -->
+                <details class="group bg-brand-gray rounded-sm border border-white/5 overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg hover:text-brand-blue transition-colors text-white">
+                        ¿Puedo mantener mi anonimato?
+                        <span class="transition-transform group-open:rotate-180">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-400 leading-relaxed">
+                        Absolutamente. Utilizamos tecnología de geobloqueo para impedir que personas de tu ciudad o país
+                        específico vean tu contenido. Puedes ser un "Faceless Creator" (creador sin rostro) y aun así
+                        generar altos ingresos.
+                    </div>
+                </details>
+                <!-- item 3 -->
+                <details class="group bg-brand-gray rounded-sm border border-white/5 overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg hover:text-brand-blue transition-colors text-white">
+                        ¿Qué porcentaje cobra la agencia?
+                        <span class="transition-transform group-open:rotate-180">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-400 leading-relaxed">
+                        Trabajamos con un modelo de éxito compartido. No cobramos tarifas iniciales ni mensuales. Solo
+                        ganamos cuando tú ganas. El porcentaje habitual varía según el nivel de servicio y facturación,
+                        pero siempre es una inversión rentable dado el incremento de ingresos que generamos.
+                    </div>
+                </details>
+                <!-- item 4 -->
+                <details class="group bg-brand-gray rounded-sm border border-white/5 overflow-hidden">
+                    <summary
+                        class="flex justify-between items-center cursor-pointer p-6 font-semibold text-lg hover:text-brand-blue transition-colors text-white">
+                        ¿Qué tengo que hacer yo?
+                        <span class="transition-transform group-open:rotate-180">
+                            <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-400 leading-relaxed">
+                        Tu único trabajo es crear el contenido (fotos/videos) siguiendo nuestras
+                        guías. Nosotros nos ocupamos de todo lo demás: subir el contenido, chatear con los fans, vender,
+                        marketing y contabilidad.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 px-6 bg-brand-gray/50 relative">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-5xl font-bold mb-4">Únete al <span class="text-brand-blue">Equipo</span>
+                </h2>
+                <div class="w-24 h-1 bg-brand-blue mx-auto mb-6"></div>
+                <p class="text-gray-400 text-lg">¿Listo para llevar tu carrera al siguiente nivel? Completa el
+                    formulario.</p>
+            </div>
+
+            <form class="space-y-6 bg-brand-black p-8 md:p-12 rounded-sm border border-white/5 shadow-2xl"
+                action="mailto:joshheustonspain@gmail.com" method="post" enctype="text/plain">
+                <!-- Name & Email Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-sm font-medium text-gray-400 mb-2 uppercase tracking-wide">Nombre
+                            Completo</label>
+                        <input type="text" name="nombre"
+                            class="w-full bg-brand-gray border border-white/10 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors"
+                            placeholder="Tu nombre real">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-400 mb-2 uppercase tracking-wide">Email de
+                            Contacto</label>
+                        <input type="email" name="email"
+                            class="w-full bg-brand-gray border border-white/10 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors"
+                            placeholder="tu@email.com">
+                    </div>
+                </div>
+
+                <!-- WhatsApp -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-400 mb-2 uppercase tracking-wide">WhatsApp</label>
+                    <input type="tel" name="whatsapp"
+                        class="w-full bg-brand-gray border border-white/10 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors"
+                        placeholder="+34 600 000 000">
+                </div>
+
+                <!-- Motivation Question -->
+                <div>
+                    <label class="block text-sm font-medium text-gray-400 mb-2 uppercase tracking-wide">¿Por qué quieres
+                        trabajar en OnlyFans?</label>
+                    <textarea rows="4" name="motivacion"
+                        class="w-full bg-brand-gray border border-white/10 rounded-sm px-4 py-3 text-white focus:outline-none focus:border-brand-blue focus:ring-1 focus:ring-brand-blue transition-colors place-content-start"
+                        placeholder="Cuéntanos tus metas y por qué te interesa..."></textarea>
+                </div>
+
+                <div class="pt-4">
+                    <button type="submit"
+                        class="w-full bg-brand-blue text-white font-bold py-4 rounded-sm hover:bg-brand-blue-hover transition-colors duration-300 uppercase tracking-widest text-sm">
+                        Enviar Solicitud
+                    </button>
+                    <p class="text-center text-xs text-gray-500 mt-4">
+                        Al enviar la solicitud se abrirá tu cliente de correo.
+                    </p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black py-8 border-t border-white/10">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-lg font-bold tracking-widest text-white">
+                AGENCIA <span class="text-brand-blue">KING 24</span>
+            </div>
+            <div class="text-gray-500 text-sm">
+                &copy; 2026 Agencia King 24. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="#whatsapp"
+        class="fixed bottom-6 right-6 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300 group">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp"
+            viewBox="0 0 16 16">
+            <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+    </a>
+</body>
+
+</html>
